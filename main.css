@@ -1,0 +1,104 @@
+* {
+    /* width: 0; */
+    /* height: 0; */
+    font-family: sans-serif;
+}
+header {
+    max-width: 680px;
+    /* width: 45%; */
+    background-color: black;
+}
+nav {
+    width: auto;
+    background-color: red;
+    display: flex;
+}
+nav ul {
+    background-image: url(./images/fundo.png);
+    display: flex;
+    width: 200px;
+    /* padding-right: auto; */
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+
+}
+#denis {
+    color: black;
+    margin-right: 200px;
+    /* padding-left: 250px; */
+
+}
+#oliveira {
+    color: white;
+    border-radius: 5px;
+    box-shadow: black 2px 2px 2px 2px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 280px;
+    width: 100%;
+    font-size: 80%;
+    /* padding-left: 250px; */
+    /* padding: 2px; */
+    /* align-items: center; */
+    /* background-image: url(./images/fundo.png); */
+    text-align: center;
+    background-image: url(images/fundo.png);
+    &:hover{
+        color: white;
+    }
+}
+#denis a {
+    display: flex;
+    color: white;
+    text-shadow: rgb(255, 255, 255) 0 0 0;
+    padding-top: 5px;
+    margin: 5px;
+    font-family: 'Black Ops One', cursive;
+}
+ul, li #denis {
+    border-radius: 5px;
+    background-color: white;
+}
+#oliveira a {
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-shadow: rgb(255, 255, 255) 0 0 0;
+    &:hover{
+        color: white;
+    }
+    /* margin: 50px; */
+}
+.conteudo {
+    /* opacity: 0.4; */
+    background-image: url(./images/fundo.png);
+    color: white;
+    /* padding: 20px; */
+    margin: 15px;
+    display: flex;
+}
+.conteudo{
+    background-color: aqua;
+    color: white;
+    /* justify-content: initial; */
+    align-items:flex-start;
+    /* right: 50px; */
+}
+.conteudo li {
+    border-radius: 5px;
+    padding: 20px;
+    background-image: url(images/fundo.png);
+    box-shadow: white  solid 2px 2px 2px 2px; 
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.conteudo ul li a {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
