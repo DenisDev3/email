@@ -1,0 +1,83 @@
+/* body {
+    @media (max-width: 640px) {
+        max-width: 80% ;
+    }
+    
+    @media (max-width: 1024px) {
+        max-width: 90%;
+}
+)
+} */
+header {
+    max-width: 680px; background-color: black;
+}
+nav {
+    background-color: red; display: flex;
+}
+nav img {
+    left: 470px;
+    position: relative; 
+    filter: brightness(120%) contrast(150%);
+}
+nav ul {
+    background-image: url(https://estaticos.vercel.app/fundo.png);
+    display: flex;
+    width: 200px;
+    list-style: none;
+    border-radius: 5px;
+    box-shadow: -20px 15px 1px rgba(0,0,0,0.5);
+}
+nav li {
+    color: black; margin-right: 200px;
+}
+nav li a {
+    font-size: 20px; 
+    display: flex; 
+    color: white; 
+    text-shadow: black 1px 1px 1px; 
+    padding-top: 5px; 
+    margin: 5px; 
+    font-family: 'Black Ops One', Cursive; 
+    text-decoration: none;
+}
+#oliveira {
+    background-color: black; 
+    color: white; 
+    border-radius: 5px; 
+    box-shadow: black 2px 2px 2px 2px; 
+    margin-left: 260px; 
+    width: 50%; 
+    font-size: 20%;
+    text-align: center;
+    background-image: url(https://estaticos.vercel.app/fundo.png);"><a href="https://github.com/DenisDev3" style="display: flex; padding: 5px; margin: 5px; font-family: 'Roboto', sans-serif; color: white; text-shadow: rgb(0, 0, 0) 0 0 0; text-decoration: none; font-size: 18px; font-family: 'Black Ops One', Cursive;
+}
+
+.conteudo {
+    color: white; 
+    justify-content: 
+    space-between; 
+    display: flex; 
+    flex-direction: row-reverse; 
+    align-items: center; 
+    background-color: teal;
+}
+.conteudo2 {
+    top: -45px; 
+    position: relative; 
+    max-width: 100%; 
+    width: 60%;
+}
+.conteudo h2{
+    background-image: url(https://estaticos.vercel.app/fundo.png); 
+    color: white; 
+    font-family: 'Black Ops One'; 
+    text-shadow: black 2px 2px 2px;
+    text-align: center; 
+    margin-right: 30px; 
+    border-radius: 5px; 
+    border-top: 10px solid red; 
+    filter: brightness(120%) contrast(150%); 
+    border-bottom: 2px solid red; 
+    border-top: 2px solid red; 
+    box-shadow: 20px 15px 1px rgba(0,0,0,0.5);
+}
